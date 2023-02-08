@@ -69,7 +69,7 @@ os seguintes comandos:
 ~~~
     > sudo -i
     > adduser stack
-    > echo "stack ALL=(ALL) NOPASSWD: ALL" >> etc/sudoers
+    > echo "stack ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 ~~~
 
 Antes de realizar a troca para o novo usuário é necessário começar a configuração da rede acessando o arquivo referente ao gerenciamento da rede.
